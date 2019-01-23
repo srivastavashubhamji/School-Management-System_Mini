@@ -1,0 +1,65 @@
+.hhome
+{   
+    margin:0px;
+    position:absolute;
+    top:27px;
+    left:6px;
+}
+
+.clsLogin
+{
+    margin:0px;
+    position:absolute;
+    top:27px;
+    right:6px;    
+}
+
+.clsLogin a{        /* login btn*/            
+    color:brown;
+    font-weight:900;
+    font-family: serif;        
+}
+.hh{
+    background-color:darkorange;
+    color:brown;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;    
+}
+
+.hhome a
+{   
+    width:100px;
+    background-color: lightcoral;
+    color:brown;
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+    /*
+        <h4  class="clsLogin" ><a href="login.php">Login</a></h4>
+        isse h4 kaa position zero ho jayega ...Phir <h1> me bhi GHUSAA sakte hai Kahin bhi bhej sakte hai
+        WITHOUT SETTING ITS margin and padding....
+    */
+h3 a{    /* h4 ke inside me anchor tag hai ...and h4 ka CLASS="clsLogin" */
+
+    border-radius: 5px;
+    background-color: lightcoral;
+    padding:20px;
+    color:dimgrey;
+    text-decoration: none;    
+}
+
+h3 a:hover
+{    
+    background-color: purple;
+    padding:20px;
+    color:white;   
+    
+}
