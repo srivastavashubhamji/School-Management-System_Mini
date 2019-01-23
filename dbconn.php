@@ -5,7 +5,7 @@
     {
        
     }
-    else      // IF NOT CONNECTED TO database Server then it will return FALSE  //
+    else      // IF NOT CONNECTED TO database Server then WE WILL GET FALSE FROM mysqli_connect() function  //
     {
         echo "Connection Failed.";
         return;
